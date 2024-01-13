@@ -1,0 +1,45 @@
+.loading-container {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: 5rem;
+}
+
+.products-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.products {
+  height: 340px;
+  width: 320px;
+  padding: 5px;
+  background-color: rgb(76, 76, 76);
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.544);
+}
+
+.products img {
+  height: 70%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.products h3 {
+  font-size: 0.8rem;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+.more-products-btn {
+  margin-bottom: 2rem;
+}
+
+.more-products-btn:disabled {
+  cursor: not-allowed;
+}

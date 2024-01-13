@@ -1,0 +1,70 @@
+.accordion-container {
+  width: 500px;
+  max-width: 90%;
+  background-color: rgba(185, 172, 172, 0.895);
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.522);
+  margin: 2rem auto;
+}
+.btn {
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  background-color: rgb(184, 66, 11);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.btn:hover {
+  filter: brightness(95%);
+}
+
+.accordion {
+  background-color: lightgrey;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.accordion div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgb(175, 79, 0);
+}
+
+.accordion div h3 {
+  text-align: left;
+  max-width: 90%;
+}
+
+.btn-notSelected {
+  font-size: 1.8rem;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 128, 0, 0.221);
+}
+
+.btn-selected {
+  color: darkred;
+  background-color: rgba(255, 0, 0, 0.221);
+}
+
+.accordion p {
+  text-align: left;
+  margin-top: 0.5rem;
+  color: rgba(0, 0, 0, 0.826);
+  max-width: 95%;
+}

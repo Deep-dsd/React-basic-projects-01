@@ -1,0 +1,58 @@
+.randomColor-section {
+  margin: 2rem auto;
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-container button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.btn-container button:hover {
+  filter: brightness(105%);
+}
+
+.btn-container button:nth-child(1) {
+  background-color: rgba(32, 178, 171, 0.849);
+  color: rgb(235, 235, 235);
+}
+.btn-container button:nth-child(2) {
+  background-color: rgba(144, 238, 144, 0.853);
+  color: rgb(35, 35, 35);
+}
+.btn-container button:nth-child(3) {
+  background-color: rgba(240, 128, 128, 0.874);
+  color: rgb(235, 235, 235);
+}
+
+.color-section {
+  width: 80%;
+  height: 350px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.color-section span {
+  text-transform: lowercase;
+}

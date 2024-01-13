@@ -1,0 +1,18 @@
+.star-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star-container {
+  font-size: 2rem;
+  display: flex;
+  gap: 2px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+.star-container .star {
+  cursor: pointer;
+  transition: color ease-in 150ms;
+}

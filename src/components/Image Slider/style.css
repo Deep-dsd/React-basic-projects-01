@@ -1,0 +1,76 @@
+.image-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-section {
+  display: flex;
+}
+
+.image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 800px;
+  max-width: 90vw;
+  /* height: 535px; */
+  position: relative;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.738);
+}
+
+.hidden-image-container {
+  display: none;
+}
+.image-container img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.641);
+  cursor: pointer;
+  transition: ease-in 250ms;
+  filter: drop-shadow(0 0 5px black);
+}
+
+.arrow:hover {
+  color: rgba(255, 255, 255, 0.841);
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.currentImg-indicator {
+  position: absolute;
+  display: flex;
+  gap: 7px;
+  bottom: 1rem;
+}
+.indicator-item {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: solid 1px white;
+  cursor: pointer;
+}
+.inactive-indicator {
+  background-color: transparent;
+}
+
+.active-indicator {
+  background-color: whitesmoke;
+}
